@@ -1,0 +1,141 @@
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+nav ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+.pnl{
+    color:#fff;
+}
+header{
+    background-color: #F56E12;
+    margin: auto;
+    position: fixed;
+    width: 100%;
+}
+nav{
+    position: relative;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    text-align: center;
+    margin: 25px auto;
+    padding-top: 125px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+}
+.hello{
+    height: 400px;
+    width: 50%;
+    background: no-repeat center center/cover url(https://www.ifapme.be/sites/default/files/styles/wvn_facebook/public/2021-07/metiers_CAV_photographe_studio.jpg?itok=mEYM7Vdg);
+    margin: 0;
+    padding: 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius:10px ;
+}
+.form1{
+    background-color: #fff;
+    width: 50%;
+    left: 0;
+    padding: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius:10px ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 50px;
+}
+.form2 input{
+    padding: 12px 0px;
+    margin: 8px 0;
+    border: none;
+    background-color: #fff;
+    outline: none;
+    border-bottom: 2px solid #adadad;
+    width: 100%;
+}
+.body{
+    background: url(https://cdn.futura-sciences.com/sources/images/bien-debuter-photographie.jpg) top center/ cover no-repeat;
+    height: 100vh;
+}
+button{
+    border-radius: 10px;
+    padding: 10px;
+    background-color:#F56E12;
+    border-style: none;
+    width: 50%;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.fle{
+    font-size: 90px;
+    color: #fff;
+}
+.presentation{
+    background: url(https://www.formations-photographe.com/images/Ressourcesimage0/292-1674125664-1_2/appareil-photo.jpg)   top center/ cover no-repeat;
+    width: auto;
+    height: 650px;
+    text-align: center;
+    padding-top: 10%;
+}
+.presentation h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+.presentation p{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+.bP{
+    border-radius: 10px;
+    width: 15%;
+}
+.localisation{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-bottom: 50px;
+    padding-top:50px;
+}
+.localite h1{
+    text-align: center;
+    padding-top: 50px;
+}
+.localite{
+    background-color: #adadad;
+   
+}
+.localisation a{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.localisation div{
+    margin: 15px;
+    text-align: center;
+}
+.localisation a:hover{
+    background-color: black;
+    color: #fff;
+    
+}
+.pnl{
+    color: #fff;
+    font-size: xx-large;
+    padding-top: 23px;
+}
