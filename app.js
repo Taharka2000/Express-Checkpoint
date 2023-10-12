@@ -2,7 +2,7 @@
 const express=require("express");
 //creation de l'objet express
 const app=express();
-{/*const checkWorkingHours = (req, res, next) => {
+{const checkWorkingHours = (req, res, next) => {
     const now = new Date();
     const dayOfWeek = now.getDay(); // 0 pour dimanche, 1 pour lundi, etc.
     const hourOfDay = now.getHours();
@@ -15,7 +15,7 @@ const app=express();
     }
   };
   
-app.use(checkWorkingHours);*/}
+app.use(checkWorkingHours);
   {/*pour pouvoir utiliser le fichier css*/}
   app.use(express.static("public"))
 {/*utilisation de app.set pour configuration de ejs*/}
